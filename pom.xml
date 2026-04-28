@@ -10,19 +10,7 @@
   <name>Example of basic Maven project</name>
 
 
-  <!-- <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <maven.compiler.release>11</maven.compiler.release>
-
-    <!-- Alternative for older setups (pre-Java 9) -->
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-    
-    <!-- Optional: set encoding -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties> -->
-
+  
   <dependencies>
     <dependency>
       <groupId>com.google.guava</groupId>
