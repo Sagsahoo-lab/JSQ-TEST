@@ -10,7 +10,7 @@
   <name>Example of basic Maven project</name>
 
 
-  <properties>
+  <!-- <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.release>11</maven.compiler.release>
@@ -21,7 +21,7 @@
     
     <!-- Optional: set encoding -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    </properties> -->
 
   <dependencies>
     <dependency>
