@@ -31,12 +31,21 @@
 
   <build>
     <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+	    <plugins>
+		      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.13.0</version> <!-- Ensure you use a recent version for Java 11+ support -->
+            <configuration>
+                <release>11</release> <!-- Modern replacement for source/target -->
+                <showWarnings>true</showWarnings>
+                <showDeprecation>true</showDeprecation>
+                <encoding>UTF-8</encoding>
+                <!-- Optional: Force compiler to run in a separate process -->
+                <fork>true</fork>
+            </configuration>
         </plugin>
+      
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
